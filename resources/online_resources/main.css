@@ -1,0 +1,147 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FCFFF5;
+}
+
+.desctext {
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  width: 50%;
+}
+
+h1 {
+  color: #193441;
+  font-size: 48;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 10px 0px;
+  margin: 0px;
+  width:100%;
+  background-color: #91AAB4;
+  background-position: bottom;
+  background-image: url("background.png");
+  background-repeat: repeat-x;
+}
+
+.container {
+  width: 80%;
+  padding-top: 50px;
+}
+
+.footer {
+  width: 100%;
+  margin: 0px;
+}
+
+.footer p {
+  text-align: center;
+  color: #193441;
+}
+
+.stats-table {
+  width: 30%;
+  margin: auto;
+}
+
+.stats-table td {
+  text-align: right;
+}
+
+.card {
+  margin: 15px;
+  max-width: 260px;
+  padding: 0px;
+  background-color: #91AAB4;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #91AAB4;
+}
+
+.cardbtn {
+  width:70%;
+  margin: 3px;
+}
+
+.cardheader {
+  width:100%;
+  margin:0px;
+  padding:0px 10px 0px 10px;
+  min-height: 36px;
+  background-color: #91AAB4;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.cardheader h2 {
+  font-size: 20;
+  color: #495F67;
+}
+
+.shipinfo p {
+  font-size: 18px;
+  margin: 2px;
+}
+
+.shipimg img{
+  width:100%;
+  max-height: 100px;
+}
+
+.shipname {
+  text-align:right;
+  float: right;
+  max-width:55%;
+}
+.playername {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  text-align:left;
+  max-width:45%;
+}
+
+#active {
+  color: #007F0E;
+}
+
+#menu {
+  margin: 40px 0px 0px 5px;
+}
+
+#menubtn {
+  margin: 5px;
+}
+
+.center-msg {
+  margin:auto;
+}
+
+/* Pavlos: add a side menu*/
+nav {
+    float: left;
+    min-width: 360px;
+    max-width: 360px;
+    margin: 0;
+    padding: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+
+</style>
